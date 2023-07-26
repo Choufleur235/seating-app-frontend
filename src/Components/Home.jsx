@@ -17,7 +17,7 @@ function Home()  {
 
   useEffect(()=> {
     const fetchPeople = async () => {
-      const response = await fetch("https://seating-app-backend.onrender.com")
+      const response = await fetch("https://seating-app-backend.onrender.com/api/tables")
       const json = await response.json()
     //   console.log(json);
 
