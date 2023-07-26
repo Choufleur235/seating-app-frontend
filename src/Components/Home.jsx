@@ -17,7 +17,7 @@ function Home()  {
 
   useEffect(()=> {
     const fetchPeople = async () => {
-      const response = await fetch("/api/tables")
+      const response = await fetch("https://inquisitive-chiton.cyclic.app/api/tables")
       const json = await response.json()
     //   console.log(json);
 
