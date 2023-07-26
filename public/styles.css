@@ -1,0 +1,50 @@
+body {
+    color: #734825;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; 
+    height: 100vh; 
+    margin: auto;
+    background-color: #fbf8f3;
+    background-image: url(./squarish.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* transform: scale(1.4); */
+}
+
+.card {
+    width: 300px;
+    /* border: 10px solid #b0204d; */
+    border: none;
+    background-color: #fbf8f3;
+    /* padding: 20px; */
+}
+
+h3, h1 {
+    text-align: center;
+    color: #c82656;
+}
+
+.control {
+    border: 1px solid #734825;
+}
+
+Form.Control.placeholder {
+    color: #8C582D;
+}
+
+
+
+.icon:focus {
+    outline: none;
+}
+
+.checkIcon {
+    color: #c82656;
+    transform: scale(1.8);
+}
