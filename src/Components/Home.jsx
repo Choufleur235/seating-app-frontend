@@ -53,7 +53,7 @@ function Home()  {
         <div className="center d-flex flex-column" xs={8}>
           <Card hidden={selectedPerson === "" ? false : true} className="card">
             <Form  className="d-flex flex-column">
-              <h3>Trouves ta table !</h3>
+              <h3>Trouve ta table !</h3>
 
               <h3>Find your table !</h3>
 
